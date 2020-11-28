@@ -1,4 +1,4 @@
-export const SONGS = [
+export const songs = [
   {
     id: 0,
     title: 'Prologue',
@@ -18,7 +18,8 @@ export const SONGS = [
     id: 2,
     title: "You Aren't Allowed To Leave",
     image: '',
-    lyrics: '',
+    lyrics:
+      "This is a cold town. \n Is this the come down? \n I find it's no surprise, \n Everything I find inside \n Is what I despise. \n \n Cause if I'm honest, \n I made a promise, \n Oh Holy Spirit, I just can't keep. \n I'm feeling weak now. \n Maybe we can just take a break and then turn around? \n \n (You aren't allowed to leave. You're with me now.) \n \n You call me distant, \n I prefer to call it patient, \n And I can see that You're persistent, \n My God, My God, despite my inconsistencies. \n \n (You're feeling fine. \n Just come inside. \n It's time to dine. \n I brought the wine.) \n \n I'm feeling great. \n Just make the plate. \n I can't escape, I can't escape. \n \n This is a ghost town, \n So maybe we can just take a break and then turn a.... \n \n Round and round we go, \n Will it ever stop? \n Round and round we go, \n Only You can know. \n \n (DON'T LOOK BACK!) \n Yet, when we were distant, \n (THIS IS HOME!) \n That's when we became Your mission, \n (DON'T LOOK BACK!) \n And You keep giving forgiveness, \n (YOU ARE ALONE!) \n My God, my God, \n How could I forget this? \n \n ------- \n This is a great town. \n I just had to come around. \n I make my clothes from the figs and I eat with the pigs. \n This is a great town. Great town. \n \n This is a great town. \n I just had to come 'round. \n I make my clothes from the figs and I eat with the pigs. \n This is a great town. Great town. \n \n (This is a great town. \n He just had to come around. \n This is a great town. \n He just had to come around. \n \n You aren't allowed to leave. You're with me now...)",
     track: ''
   },
   {
