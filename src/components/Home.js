@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Home.css';
-import { songs } from '../songs';
-import SongTile from './SongTile';
 
 function Home() {
   return (
     <div className='home'>
-      <h1>HDTN - An album by Yours For Mine</h1>
-      <div>
-        <SongTile />
+      <div className='card'>
+        <h1 className='title'>Yours For Mine: How Dark The Night</h1>
+        <hr className='divider1' />
+        <p className='subtitle'>
+          An album by Yours For Mine with accompanying story and illustrations
+        </p>
       </div>
     </div>
   );
