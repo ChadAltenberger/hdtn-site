@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+---
+
+> This is an album website for an indie-rock band. Built with React.js for easy state management and fast loading for a nice UX. 
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
