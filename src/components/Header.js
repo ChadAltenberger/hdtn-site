@@ -25,11 +25,21 @@ function Header() {
 				<h2 className='nav__brand--logo'>HDTN</h2>
 			</Link>
 			<ul className='nav__links'>
-				<li className='nav__item'>Home</li>
-				<li className='nav__item'>About</li>
-				<li className='nav__item'>Listen</li>
-				<li className='nav__item'>Read</li>
-				<li className='nav__item'>Donate</li>
+				<li className='nav__item'>
+					<Link to='/'>Home</Link>
+				</li>
+				<li className='nav__item'>
+					<Link to='/about'>About</Link>
+				</li>
+				<li className='nav__item'>
+					<Link to='/listen'>Listen</Link>
+				</li>
+				<li className='nav__item'>
+					<Link to='/read'>Read</Link>
+				</li>
+				<li className='nav__item'>
+					<Link to='/donate'>Donate</Link>
+				</li>
 			</ul>
 			<div
 				className='burger'
