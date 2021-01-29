@@ -3,9 +3,12 @@ import '../styles/About.css';
 
 function About() {
 	return (
-		<div>
-			<h1>About the album.</h1>
-		</div>
+		<>
+			<div className='backdrop'></div>
+			<div className='aboutMain'>
+				<h1>About the album.</h1>
+			</div>
+		</>
 	);
 }
 

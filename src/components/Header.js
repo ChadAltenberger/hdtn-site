@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 
 function Header() {
@@ -21,24 +21,59 @@ function Header() {
 	// navSlide();
 	return (
 		<nav role='navigation' className='mainNav'>
-			<Link className='nav__brand' to='/'>
+			<NavLink className='nav__brand' to='/'>
 				<h2 className='nav__brand--logo'>HDTN</h2>
-			</Link>
+			</NavLink>
 			<ul className='nav__links'>
 				<li className='nav__item'>
-					<Link to='/'>Home</Link>
+					<NavLink
+						exact
+						to='/'
+						className='nav__item--link'
+						activeClassName='selected'
+					>
+						Home
+					</NavLink>
 				</li>
 				<li className='nav__item'>
-					<Link to='/about'>About</Link>
+					<NavLink
+						exact
+						to='/about'
+						className='nav__item--link'
+						activeClassName='selected'
+					>
+						About
+					</NavLink>
 				</li>
 				<li className='nav__item'>
-					<Link to='/listen'>Listen</Link>
+					<NavLink
+						exact
+						to='/listen'
+						className='nav__item--link'
+						activeClassName='selected'
+					>
+						Listen
+					</NavLink>
 				</li>
 				<li className='nav__item'>
-					<Link to='/read'>Read</Link>
+					<NavLink
+						exact
+						to='/read'
+						className='nav__item--link'
+						activeClassName='selected'
+					>
+						Read
+					</NavLink>
 				</li>
 				<li className='nav__item'>
-					<Link to='/donate'>Donate</Link>
+					<NavLink
+						exact
+						to='/donate'
+						className='nav__item--link'
+						activeClassName='selected'
+					>
+						Donate
+					</NavLink>
 				</li>
 			</ul>
 			<div

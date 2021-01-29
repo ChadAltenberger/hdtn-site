@@ -4,7 +4,7 @@ import '../styles/Home.css';
 function Home() {
 	return (
 		<>
-			<div className='backdrop'></div>
+			<div className='backgroundImage'></div>
 			<div className='home'>
 				<div className='card'>
 					<h1 className='title'>Yours For Mine: How Dark the Night</h1>

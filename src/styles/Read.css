@@ -1,0 +1,12 @@
+.readMain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+}
+
+.readMain h1 {
+	color: white;
+}
