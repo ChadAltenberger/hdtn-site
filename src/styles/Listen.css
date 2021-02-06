@@ -1,12 +1,28 @@
-.listenMain {
+.listenBody {
+	width: 100vw;
+	height: 100vh;
+	background: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
-	width: 100vw;
-	height: 100vh;
 }
 
-.listenMain h1 {
-	color: white;
+.gridContainer {
+	display: grid;
+	grid-template-columns: 8rem 8rem 8rem 8rem;
+	grid-gap: 1.5rem;
 }
+
+.tileContainer:hover {
+	opacity: 0.8;
+	transition-duration: 0.5;
+	cursor: pointer;
+}
+
+/* @media (max-width: 640px) {
+	.gridContainer {
+		display: grid;
+		grid-template-columns: 16rem 16rem;
+		grid-gap: 1.5rem;
+	}
+} */

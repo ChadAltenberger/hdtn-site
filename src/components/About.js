@@ -6,22 +6,24 @@ function About() {
 	return (
 		<>
 			<Backdrop />
-			<div className='backdrop'></div>
+			<div className='aboutBackgroundImage'></div>
 			<div className='aboutMain'>
 				<div className='info'>
 					<p>
-						Produced by: Chad Altenberger and Yours For Mine{'\n'}
-						Engineered & Mixed by: Chad Altenberger of Three Arrows Sound{'\n'}
-						All lyrics by: Joey Testa{'\n'}
-						Accompanying story written by: Joey Testa{'\n'}
-						Illustrations by: Tyler Dowdy{'\n'}
-						{'\n'}
-						Yours For Mine is: Joey Testa: Vocals{'\n'}
-						Chad Altenberger: Guitars{'\n'}
-						Benjamin Cooley: Guitars{'\n'}
-						Stephen Minnick: Bass, Keys/Synth, Background Vocals{'\n'}
-						Jonathan Woods: Drums Additional{'\n'}
-						Vocals on tracks 5, 7, 9, 11 by: Aaron Cosner{'\n'}
+						Produced by: Chad Altenberger and Yours For Mine{<br />}
+						Engineered & Mixed by: Chad Altenberger of Three Arrows Sound
+						{<br />}
+						All lyrics by: Joey Testa{<br />}
+						Accompanying story written by: Joey Testa{<br />}
+						Illustrations by: Tyler Dowdy{<br />}
+						{<br />}
+						Yours For Mine is:{<br />}
+						Joey Testa: Vocals{<br />}
+						Chad Altenberger: Guitars{<br />}
+						Benjamin Cooley: Guitars{<br />}
+						Stephen Minnick: Bass, Keys/Synth, Background Vocals{<br />}
+						Jonathan Woods: Drums {<br />}
+						Additional Vocals on tracks 5, 7, 9, 11 by: Aaron Cosner{<br />}
 					</p>
 				</div>
 			</div>

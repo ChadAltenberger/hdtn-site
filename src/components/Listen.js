@@ -7,19 +7,45 @@ function Listen() {
 	return (
 		<>
 			<Backdrop />
-			<div className='listenMain'>
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
-				<SongTile />
+			<div className='listenBody'>
+				<div className='gridContainer'>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+					<div className='tileContainer'>
+						<SongTile />
+					</div>
+				</div>
 			</div>
 		</>
 	);
