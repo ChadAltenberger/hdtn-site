@@ -1,12 +1,25 @@
 import React from 'react';
+import Backdrop from './Backdrop';
+import SongTile from './SongTile';
 import '../styles/Listen.css';
 
 function Listen() {
 	return (
 		<>
-			<div className='backdrop'></div>
+			<Backdrop />
 			<div className='listenMain'>
-				<h1>Listen to the album.</h1>
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
+				<SongTile />
 			</div>
 		</>
 	);

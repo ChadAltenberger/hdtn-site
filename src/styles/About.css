@@ -1,12 +1,5 @@
-.backdrop {
-	position: fixed;
-	display: none;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	width: 100vw;
-	height: 100vh;
-	background: rgba(0, 0, 0, 0.6);
+* {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .aboutMain {
@@ -18,6 +11,25 @@
 	height: 100vh;
 }
 
-.aboutMain h1 {
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid white;
+	padding: 50px;
+	width: 75vw;
+	height: 75vh;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.info p {
+	white-space: pre;
 	color: white;
+	font-weight: 100;
+	letter-spacing: 0.1em;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Header.css';
+import '../styles/About.css';
 
 function Header() {
 	const [toggle, setToggle] = useState(false);
@@ -79,12 +80,13 @@ function Header() {
 			<div
 				className='burger'
 				onClick={() => {
-					// console.log(toggle);
 					if (toggle === false) {
 						//Toggle nav
 						const nav = document.querySelector('.nav__links');
 						const navLinks = document.querySelectorAll('.nav__item');
+						const backdrop = document.querySelector('.backdrop');
 						nav.classList.toggle('nav__active');
+						backdrop.classList.toggle('visible');
 
 						//Animate links
 						navLinks.forEach((link, index) => {

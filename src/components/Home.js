@@ -1,9 +1,11 @@
 import React from 'react';
+import Backdrop from './Backdrop';
 import '../styles/Home.css';
 
 function Home() {
 	return (
 		<>
+			<Backdrop />
 			<div className='backgroundImage'></div>
 			<div className='home'>
 				<div className='card'>
