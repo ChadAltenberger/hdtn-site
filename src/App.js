@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Listen from './components/Listen';
@@ -12,7 +11,6 @@ function App() {
 	return (
 		<Router>
 			<div className='app'>
-				<Header />
 				<Switch>
 					<Route exact path='/about'>
 						<About />

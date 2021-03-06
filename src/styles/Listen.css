@@ -1,28 +1,49 @@
-.listenBody {
+/* Flexbox layout */
+
+/* .grid {
+	position: absolute;
 	width: 100vw;
-	height: 100vh;
-	background: black;
+	height: 90vh;
+	top: 8rem;
+}
+
+.container {
+	height: 25%;
+	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
+*/
 
-.gridContainer {
-	display: grid;
-	grid-template-columns: 8rem 8rem 8rem 8rem;
-	grid-gap: 1.5rem;
-}
+/* .songTile {
+	background: grey;
+} */
 
-.tileContainer:hover {
+.songTile:hover {
 	opacity: 0.8;
 	transition-duration: 0.5;
 	cursor: pointer;
 }
 
-/* @media (max-width: 640px) {
-	.gridContainer {
-		display: grid;
-		grid-template-columns: 16rem 16rem;
-		grid-gap: 1.5rem;
-	}
-} */
+/* Grid layout */
+
+.container {
+	display: grid;
+	margin-top: 12vh;
+	margin-bottom: 8vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+		'tile tile tile tile'
+		'tile tile tile tile'
+		'tile tile tile tile';
+	grid-gap: 2rem;
+}
+
+.songTile {
+	grid-area: 'tile';
+}

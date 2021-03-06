@@ -2,15 +2,6 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.aboutBackgroundImage {
-	background: url('../images/blue-tile.jpg');
-	background-size: auto;
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	filter: opacity(0.9);
-}
-
 .aboutMain {
 	display: flex;
 	justify-content: center;

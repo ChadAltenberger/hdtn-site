@@ -1,0 +1,35 @@
+.songWindow {
+	display: grid;
+	height: 75vh;
+	margin: 16rem 4rem;
+	padding: 3vh 3vw;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.5fr 1fr;
+	grid-template-areas:
+		'image audio'
+		'image lyrics';
+	grid-gap: 1rem;
+	border: 1px solid black;
+	overflow: scroll;
+}
+
+.songWindow__image {
+	grid-area: image;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 24rem;
+}
+
+.songWindow__audio {
+	grid-area: audio;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.songWindow__lyrics {
+	grid-area: lyrics;
+	display: flex;
+	justify-content: center;
+}

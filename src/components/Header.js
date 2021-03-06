@@ -3,25 +3,15 @@ import { NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 import '../styles/About.css';
 
-function Header() {
+function Header(props) {
 	const [toggle, setToggle] = useState(false);
 
-	// const setToggle = () => {
-	//   if (toggle) {
-	//     const burger = document.querySelector('.burger');
-	//     const nav = document.querySelector('.nav__links');
-
-	//     burger.addEventListener('click', () => {
-	//       nav.classList.toggle('nav__active');
-	//     });
-	//   } else {
-	//     !toggle;
-	//   }
-	// };
-
-	// navSlide();
 	return (
-		<nav role='navigation' className='mainNav'>
+		<nav
+			style={{ background: props.color }}
+			role='navigation'
+			className='mainNav'
+		>
 			<NavLink className='nav__brand' to='/'>
 				<h2 className='nav__brand--logo'>HDTN</h2>
 			</NavLink>

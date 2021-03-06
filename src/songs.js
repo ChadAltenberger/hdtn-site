@@ -1,15 +1,28 @@
-export const songs = [
+import track1 from './audio/Prologue.wav';
+import track2 from './audio/HITC.wav';
+import track3 from './audio/YAATL.wav';
+import track4 from './audio/WAH.wav';
+import track5 from './audio/GU.wav';
+import track6 from './audio/NBF.wav';
+import track7 from './audio/FOTG.wav';
+import track8 from './audio/ETG.wav';
+import track9 from './audio/BTT.wav';
+import track10 from './audio/FAR.wav';
+import track11 from './audio/SSA.wav';
+import track12 from './audio/Epilogue.wav';
+
+export const SONGS = [
 	{
 		id: 0,
 		title: 'Prologue',
-		image: '',
+		image: './images/blue-tile.jpg',
 		lyrics: '',
-		track: ''
+		track: { track1 }
 	},
 	{
 		id: 1,
-		title: 'Head In The Clouds',
-		image: '',
+		title: 'Head in the Clouds',
+		image: './images/HITC.jpg',
 		lyrics: `
     I think there's still a lack of relationship,
     Cause who You are is not who I could be,
@@ -105,7 +118,7 @@ export const songs = [
     But this is it, so keep Your love and tell the world that I'm alive!
     I am alive!
     `,
-		track: ''
+		track: { track2 }
 	},
 	{
 		id: 2,
@@ -113,69 +126,69 @@ export const songs = [
 		image: '',
 		lyrics:
 			"This is a cold town. \n Is this the come down? \n I find it's no surprise, \n Everything I find inside \n Is what I despise. \n \n Cause if I'm honest, \n I made a promise, \n Oh Holy Spirit, I just can't keep. \n I'm feeling weak now. \n Maybe we can just take a break and then turn around? \n \n (You aren't allowed to leave. You're with me now.) \n \n You call me distant, \n I prefer to call it patient, \n And I can see that You're persistent, \n My God, My God, despite my inconsistencies. \n \n (You're feeling fine. \n Just come inside. \n It's time to dine. \n I brought the wine.) \n \n I'm feeling great. \n Just make the plate. \n I can't escape, I can't escape. \n \n This is a ghost town, \n So maybe we can just take a break and then turn a.... \n \n Round and round we go, \n Will it ever stop? \n Round and round we go, \n Only You can know. \n \n (DON'T LOOK BACK!) \n Yet, when we were distant, \n (THIS IS HOME!) \n That's when we became Your mission, \n (DON'T LOOK BACK!) \n And You keep giving forgiveness, \n (YOU ARE ALONE!) \n My God, my God, \n How could I forget this? \n \n ------- \n This is a great town. \n I just had to come around. \n I make my clothes from the figs and I eat with the pigs. \n This is a great town. Great town. \n \n This is a great town. \n I just had to come 'round. \n I make my clothes from the figs and I eat with the pigs. \n This is a great town. Great town. \n \n (This is a great town. \n He just had to come around. \n This is a great town. \n He just had to come around. \n \n You aren't allowed to leave. You're with me now...)",
-		track: ''
+		track: { track3 }
 	},
 	{
 		id: 3,
 		title: 'We All Hide',
-		image: '',
+		image: './images/WAH.jpg',
 		lyrics: '',
-		track: ''
+		track: { track4 }
 	},
 	{
 		id: 4,
 		title: 'Give Up! The Ghosts Are Coming!',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track5 }
 	},
 	{
 		id: 5,
 		title: 'Not By Force, Not By Strength',
-		image: '',
+		image: './images/NBF.jpg',
 		lyrics: '',
-		track: ''
+		track: { track6 }
 	},
 	{
 		id: 6,
 		title: 'Feet On The Ground',
-		image: '',
+		image: './images/HDTN.jpg',
 		lyrics: '',
-		track: ''
+		track: { track7 }
 	},
 	{
 		id: 7,
 		title: 'Break The Teeth',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track8 }
 	},
 	{
 		id: 8,
 		title: 'Even The Grave',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track9 }
 	},
 	{
 		id: 9,
 		title: 'Forgive, Act, Repay',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track10 }
 	},
 	{
 		id: 10,
 		title: 'Sing, Sing Again',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track11 }
 	},
 	{
 		id: 11,
 		title: 'Epilogue',
 		image: '',
 		lyrics: '',
-		track: ''
+		track: { track12 }
 	}
 ];

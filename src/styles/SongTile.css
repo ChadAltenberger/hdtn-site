@@ -1,9 +1,10 @@
 .songTile {
-	border: 1px solid white;
-	border-radius: 2px;
-	width: 8rem;
-	height: 8rem;
-	background: url('../images/HITC.jpg') center/contain no-repeat;
+	border: 1px solid black;
+	border-radius: 4px;
+	/* width: 8rem;
+	height: 8rem; */
+	background: center/contain no-repeat;
+	text-align: center;
 }
 
 /* @media (max-width: 640px) {
