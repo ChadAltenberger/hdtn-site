@@ -3,7 +3,7 @@
 }
 
 .homeBackgroundImage {
-	background: url(../assets/images/HDTN.jpg);
+	background: url(../images/HDTN.jpg);
 	background-position: center;
 	background-size: cover;
 	position: fixed;
