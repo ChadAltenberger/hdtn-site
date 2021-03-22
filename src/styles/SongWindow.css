@@ -1,4 +1,6 @@
 .songWindow {
+	position: relative;
+	background-color: white;
 	display: grid;
 	height: 75vh;
 	margin: 16rem 4rem;
@@ -10,7 +12,8 @@
 		'image lyrics';
 	grid-gap: 1rem;
 	border: 1px solid black;
-	overflow: scroll;
+	overflow-y: scroll;
+	z-index: 200;
 }
 
 .songWindow__image {

@@ -11,7 +11,7 @@ function About() {
 			<div className='aboutMain'>
 				<div className='info'>
 					<p>
-						Produced by: Chad Altenberger and Yours For Mine{<br />}
+						Produced by: Yours For Mine{<br />}
 						Engineered & Mixed by: Chad Altenberger of Three Arrows Sound
 						{<br />}
 						All lyrics by: Joey Testa{<br />}
@@ -25,7 +25,7 @@ function About() {
 						Benjamin Cooley: Guitars{<br />}
 						Stephen Minnick: Bass, Keys/Synth, Background Vocals{<br />}
 						Jonathan Woods: Drums {<br />}
-						Additional Vocals on tracks 5, 7, 9, 11 by: Aaron Cosner{<br />}
+						Additional Vocals on tracks 5, 7, 9, & 11 by: Aaron Cosner{<br />}
 					</p>
 				</div>
 			</div>

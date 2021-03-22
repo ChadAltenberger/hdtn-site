@@ -5,7 +5,7 @@ import '../styles/Home.css';
 function Home() {
 	return (
 		<>
-			<Header color='rgba(255, 255, 255, 0.7)' />
+			<Header color='rgba(255, 255, 255, 0.8)' />
 			<div className='homeBackgroundImage'></div>
 			<div className='home'>
 				<div className='card'>
