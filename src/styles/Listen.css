@@ -29,6 +29,7 @@
 /* Grid layout */
 
 .container {
+	position: relative;
 	display: grid;
 	margin-top: 12vh;
 	margin-bottom: 8vh;
