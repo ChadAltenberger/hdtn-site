@@ -14,6 +14,9 @@ function SongWindow(props) {
 						alt={props.selectedSong.title}
 					/>
 				</div>
+				<div onClick={props.close} className='close'>
+					+
+				</div>
 				<div className='songWindow__audio'>
 					<audio
 						src={`${process.env.PUBLIC_URL}/audio/${props.selectedSong.track}`}

@@ -1,13 +1,4 @@
 .songTile {
-	/* width: 8rem;
-	height: 8rem; */
 	background: center/contain no-repeat;
 	text-align: center;
 }
-
-/* @media (max-width: 640px) {
-	.songTile {
-		width: 16rem;
-		height: 16rem;
-	}
-} */

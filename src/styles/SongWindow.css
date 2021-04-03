@@ -12,6 +12,7 @@
 		'image lyrics';
 	grid-gap: 1rem;
 	border: 1px solid black;
+	box-shadow: 1px 1px 2px rgb(49, 49, 49);
 	overflow-y: scroll;
 	z-index: 200;
 }
@@ -36,4 +37,21 @@
 	grid-area: lyrics;
 	display: flex;
 	justify-content: center;
+}
+
+audio:focus {
+	outline: none;
+}
+
+.close {
+	top: 0;
+	right: 0.75rem;
+	position: absolute;
+	transform: rotate(45deg);
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.close:hover {
+	filter: opacity(0.6);
 }

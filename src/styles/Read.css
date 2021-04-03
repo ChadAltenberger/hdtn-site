@@ -1,11 +1,26 @@
 .readMain {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
 }
 
-.readMain h1 {
-	color: black;
+a {
+	color: inherit;
+}
+
+button {
+	margin-top: 4rem;
+	font-size: 1rem;
+	padding: 1rem;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background: rgb(60, 167, 194);
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
 }
