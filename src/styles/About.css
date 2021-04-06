@@ -2,34 +2,71 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.aboutMain {
+/* mobile view */
+
+.aboutContainer {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
+	top: 12vh;
 }
 
 .info {
+	background: url(../images/about.jpg);
+	background-position: center;
+	background-size: cover;
+	filter: blur(1.5px);
+	position: fixed;
+	width: 100vw;
+	height: 35vh;
+	top: 12vh;
+}
+
+.info + h1 {
+	color: white;
+	position: fixed;
+	text-align: center;
+	top: 15%;
+	font-size: 1.75rem;
+	padding: 0 1rem;
+}
+
+h1 + p {
+	color: white;
+	position: fixed;
+	text-align: center;
+	top: 35%;
+	font-size: 0.8rem;
+	font-weight: 100;
+	padding: 0 4rem;
+	letter-spacing: 0.1em;
+	line-height: 1.4;
+}
+
+.credits {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: center;
 	border: 1px solid #222222;
-	padding: 50px 35px;
-	min-width: 65vw;
-	height: 60vh;
+	padding: 35px 35px;
+	min-width: 75vw;
+	height: 70vh;
 	text-align: center;
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 70%;
+	left: 65%;
+	transform: translate(-70%, -20%);
 	background: rgba(255, 255, 255, 0.6);
 }
 
-.info p {
+.credits p {
 	color: #000000;
 	font-weight: 300;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
 	font-size: small;
 }

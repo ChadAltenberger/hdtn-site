@@ -39,7 +39,6 @@ h2 {
 	list-style: none;
 	font-weight: bold;
 	font-size: 0.9rem;
-	padding: 0.6rem;
 	cursor: pointer;
 }
 
@@ -78,6 +77,12 @@ a {
 	}
 }
 
+@media screen and (max-width: 730px) {
+	.nav__links {
+		width: 60%;
+	}
+}
+
 @media screen and (max-width: 40rem) {
 	body {
 		overflow-x: hidden;
@@ -86,10 +91,10 @@ a {
 		position: absolute;
 		right: 0px;
 		height: 79vh;
-		width: 25%;
+		width: 100%;
 		top: 12vh;
 		z-index: 100;
-		background-color: rgba(255, 255, 255, 0.7);
+		background-color: white;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

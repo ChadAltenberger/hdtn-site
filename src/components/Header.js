@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Backdrop from './Backdrop';
 import '../styles/Header.css';
 import '../styles/About.css';
 
@@ -26,16 +27,16 @@ function Header(props) {
 						Home
 					</NavLink>
 				</li>
-				<li className='nav__item'>
-					<NavLink
-						exact
-						to='/about'
-						className='nav__item--link'
-						activeClassName='selected'
-					>
-						About
-					</NavLink>
-				</li>
+
+				<NavLink
+					exact
+					to='/about'
+					className='nav__item--link'
+					activeClassName='selected'
+				>
+					<li className='nav__item'>About</li>
+				</NavLink>
+
 				<li className='nav__item'>
 					<NavLink
 						exact
@@ -74,9 +75,8 @@ function Header(props) {
 						//Toggle nav
 						const nav = document.querySelector('.nav__links');
 						const navLinks = document.querySelectorAll('.nav__item');
-						const backdrop = document.querySelector('.backdrop');
 						nav.classList.toggle('nav__active');
-						backdrop.classList.toggle('visible');
+						<Backdrop />;
 
 						//Animate links
 						navLinks.forEach((link, index) => {

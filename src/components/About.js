@@ -7,9 +7,18 @@ function About() {
 	return (
 		<>
 			<Header color='rgb(44, 43, 43, 0.05)' />
-			<div className='aboutBackgroundImage'></div>
-			<div className='aboutMain'>
-				<div className='info'>
+			{/* flex container */}
+			<div className='aboutContainer'>
+				{/* flex item 1 */}
+				<div className='info'></div>
+				<h1>// We're all hiding something, or hiding from something //</h1>
+				<p>
+					This project aims to encourage the hopeless with the simple truth that
+					we're never alone in our struggles
+				</p>
+
+				{/* flex item 2 */}
+				<div className='credits'>
 					<p>
 						Produced by: Yours For Mine{<br />}
 						Engineered & Mixed by: Chad Altenberger of Three Arrows Sound
