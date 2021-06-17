@@ -1,42 +1,69 @@
-.songWindow {
-	position: absolute;
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
 	top: 0;
-	background-color: white;
-	display: grid;
-	height: 75vh;
-	padding: 3vh 3vw;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.5fr 1fr;
-	grid-template-areas:
-		'image audio'
-		'image lyrics';
-	grid-gap: 1rem;
-	border: 1px solid black;
-	box-shadow: 1px 1px 2px rgb(49, 49, 49);
-	overflow-y: scroll;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	z-index: 200;
+	width: 100vw;
+	height: 100vh;
 }
 
-.songWindow__image {
-	grid-area: image;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	max-width: 24rem;
-	background-size: cover;
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 200;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(77, 77, 77, 0.6);
 }
 
-.songWindow__audio {
-	grid-area: audio;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+.song-window {
+	position: absolute;
+	background: #fff;
+	width: 80%;
+	height: 80vh;
+	padding: 2rem;
+	border: 1px solid #333;
+	border-radius: 3px;
+	overflow-y: scroll;
+	z-index: 300;
 }
 
-.songWindow__lyrics {
-	grid-area: lyrics;
+.song-row {
 	display: flex;
+	justify-content: space-evenly;
+}
+
+.song-window .column-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-right: 2rem;
+}
+
+.song-window .column-1 img {
+	max-width: 28rem;
+}
+
+.song-window .column-2 {
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	padding: 0 2.5rem;
+}
+
+.song-window .column-2 .lyrics {
+	padding-top: 2rem;
+	white-space: pre-line;
 }
 
 audio:focus {
@@ -54,4 +81,53 @@ audio:focus {
 
 .close:hover {
 	filter: opacity(0.6);
+}
+
+@media (max-width: 1080px) {
+	.song-row {
+		flex-direction: column;
+	}
+	.song-window .column-1 {
+		padding: 0 0 2rem 0;
+	}
+
+	.song-window .column-1 img {
+		max-width: 34rem;
+	}
+
+	.song-window .column-2 {
+		padding: 0 1.5rem;
+	}
+}
+
+@media (max-width: 680px) {
+	.song-window .column-1 img {
+		max-width: 24rem;
+	}
+
+	.song-window .column-2 {
+		padding: 0 1rem;
+	}
+
+	.song-window .column-2 .lyrics p {
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.song-window .column-1 img {
+		max-width: 16rem;
+	}
+
+	.song-window .column-2 {
+		padding: 0 1rem;
+	}
+
+	.song-window .column-2 .lyrics p {
+		font-size: 0.8rem;
+	}
+
+	audio {
+		width: 250px;
+	}
 }

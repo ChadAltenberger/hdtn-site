@@ -1,0 +1,35 @@
+/* Flex Columns */
+.flex-columns.flex-reverse .row {
+	flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100vh;
+}
+
+.flex-columns .column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+	height: 100%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Mobil Styles */
+@media (max-width: 768px) {
+	.flex-columns .column {
+		flex: 100%;
+		max-width: 100%;
+		min-height: 100%;
+	}
+}

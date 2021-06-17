@@ -10,7 +10,7 @@ function Listen() {
 
 	return (
 		<>
-			<Header color='rgb(243, 243, 243)' />
+			<Header color='#f3f3f3' />
 			<div className='container'>
 				{SONGS.map(song => {
 					return (
