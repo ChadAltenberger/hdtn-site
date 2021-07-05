@@ -102,7 +102,11 @@ a {
 	}
 
 	.nav__links.nav__active {
-		justify-content: space-evenly;
+		justify-content: center;
+	}
+
+	.nav__links.nav__active li {
+		padding: 1.5rem 0;
 	}
 
 	.nav__item:hover {
