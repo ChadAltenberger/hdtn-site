@@ -5,7 +5,7 @@ export const SONGS = [
 		image: 'HDTN.jpg',
 		lyrics:
 			"Everyone has something to hide. Tell me yours I'll tell you mine. Take my hand while there's still time",
-		track: 'Prologue.wav'
+		track: 'Prologue.mp3'
 	},
 	{
 		id: 1,
@@ -106,7 +106,7 @@ export const SONGS = [
     But this is it, so keep Your love and tell the world that I'm alive!
     I am alive!
     `,
-		track: 'HITC.wav'
+		track: 'HITC.mp3'
 	},
 	{
 		id: 2,
@@ -178,7 +178,7 @@ He just had to come around.
 
 You aren't allowed to leave. You're with me now...)
 		`,
-		track: 'YAATL.wav'
+		track: 'YAATL.mp3'
 	},
 	{
 		id: 3,
@@ -232,7 +232,7 @@ You aren't allowed to leave. You're with me now...)
 		Just know I'm with you, you're never alone.
 		
 		Just know I love you and you're always welcome home.`,
-		track: 'WAH.wav'
+		track: 'WAH.mp3'
 	},
 	{
 		id: 4,
@@ -311,7 +311,7 @@ You aren't allowed to leave. You're with me now...)
 		Hope.
 		
 		Oh God, oh God, don't let them take me!`,
-		track: 'GU.wav'
+		track: 'GU.mp3'
 	},
 	{
 		id: 5,
@@ -347,7 +347,7 @@ You aren't allowed to leave. You're with me now...)
 		Show this love. Redeem this place.
 		
 		Send help! (X4)`,
-		track: 'NBF.wav'
+		track: 'NBF.mp3'
 	},
 	{
 		id: 6,
@@ -415,7 +415,7 @@ You aren't allowed to leave. You're with me now...)
 		Out of the night, you will appear!
 		The Messiah has crushed the Enemy's head.
 		So wake up, sleeper! Rise up from the dead.`,
-		track: 'FOTG.wav'
+		track: 'FOTG.mp3'
 	},
 	{
 		id: 7,
@@ -480,7 +480,7 @@ You aren't allowed to leave. You're with me now...)
 		All Hail the King!
 		Salvation and freedom belong to You.
 		Break, break the teeth.`,
-		track: 'BTT.wav'
+		track: 'BTT.mp3'
 	},
 	{
 		id: 8,
@@ -572,7 +572,7 @@ You aren't allowed to leave. You're with me now...)
 		never again, run from You Father.
 		
 		(We're. Still. Here. Oh, Holy Ghost. Right. Here.)`,
-		track: 'ETG.wav'
+		track: 'ETG.mp3'
 	},
 	{
 		id: 9,
@@ -605,7 +605,7 @@ You aren't allowed to leave. You're with me now...)
 		Or plague or illness.
 		Hear our petition.
 		Our God healed our affliction.`,
-		track: 'FAR.wav'
+		track: 'FAR.mp3'
 	},
 	{
 		id: 10,
@@ -658,13 +658,13 @@ You aren't allowed to leave. You're with me now...)
 		Just know I'm with you, you're never alone.
 		
 		Just know I love You, and I'm grateful to be home.`,
-		track: 'SSA.wav'
+		track: 'SSA.mp3'
 	},
 	{
 		id: 11,
 		title: 'Epilogue',
 		image: 'HDTN.jpg',
 		lyrics: '',
-		track: 'Epilogue.wav'
+		track: 'Epilogue.mp3'
 	}
 ];
