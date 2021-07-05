@@ -101,6 +101,10 @@ a {
 		transition: transform 0.3s ease-in;
 	}
 
+	.nav__links.nav__active {
+		justify-content: space-evenly;
+	}
+
 	.nav__item:hover {
 		color: inherit;
 	}
