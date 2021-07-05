@@ -1,5 +1,4 @@
 /* Mobile view */
-
 .container {
 	position: relative;
 	display: grid;
@@ -24,21 +23,23 @@
 		'tile'
 		'tile';
 	grid-gap: 0.5rem;
+	top: 5rem;
+	height: fit-content;
 }
 
-.songTile {
+.song-tile {
 	grid-area: 'tile';
-	height: 40vh;
+	height: 50vh;
+	background: center center/contain no-repeat;
 }
 
-.songTile:hover {
+.song-tile:hover {
 	opacity: 0.8;
 	transition-duration: 0.5;
 	cursor: pointer;
 }
 
 /* desktop views */
-
 @media screen and (min-width: 640px) {
 	.container {
 		grid-template-columns: 1fr 1fr;
@@ -51,10 +52,12 @@
 			'tile tile'
 			'tile tile';
 		grid-gap: 2rem;
+		top: 5rem;
+		height: fit-content;
 	}
 
-	.songTile {
-		height: 60vh;
+	.song-tile {
+		height: 65vh;
 	}
 }
 
@@ -69,7 +72,7 @@
 		grid-gap: 2rem;
 	}
 
-	.songTile {
+	.song-tile {
 		height: 40vh;
 	}
 }

@@ -11,7 +11,7 @@ function Header(props) {
 		<nav
 			style={{ background: props.color }}
 			role='navigation'
-			className='mainNav'
+			className='main-nav'
 		>
 			<NavLink className='nav__brand' to='/'>
 				<h2 className='nav__brand--logo'>HDTN</h2>
@@ -60,11 +60,11 @@ function Header(props) {
 				<li className='nav__item'>
 					<NavLink
 						exact
-						to='/donate'
+						to='/support'
 						className='nav__item--link'
 						activeClassName='selected'
 					>
-						Donate
+						Support
 					</NavLink>
 				</li>
 			</ul>

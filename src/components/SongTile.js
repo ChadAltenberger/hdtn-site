@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import SongWindow from './SongWindow';
 import '../styles/SongTile.css';
-import Backdrop from './Backdrop';
 
 function SongTile(props) {
 	return (
@@ -9,7 +7,7 @@ function SongTile(props) {
 			style={{
 				backgroundImage: `url('${process.env.PUBLIC_URL}/images/${props.image}')`
 			}}
-			className='songTile'
+			className='song-tile'
 			onClick={props.onClick}
 		></div>
 	);

@@ -8,10 +8,19 @@
 	min-height: 4rem;
 	position: fixed;
 	width: 100%;
+	z-index: 2;
 }
 
 .footer__links {
 	display: flex;
+}
+
+.footer__links .social {
+	color: #c4c4c4;
+}
+
+.footer__links .social:hover {
+	color: #fff;
 }
 
 .footer__item {

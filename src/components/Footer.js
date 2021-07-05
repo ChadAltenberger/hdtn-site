@@ -15,7 +15,7 @@ function Footer() {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							<InstagramIcon fontSize='small' style={{ color: '#c4c4c4' }} />
+							<InstagramIcon className='social' fontSize='small' />
 						</a>
 					</li>
 					<li className='footer__item'>
@@ -24,7 +24,7 @@ function Footer() {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							<FacebookIcon fontSize='small' style={{ color: '#c4c4c4' }} />
+							<FacebookIcon className='social' fontSize='small' />
 						</a>
 					</li>
 					<li className='footer__item'>
@@ -33,7 +33,7 @@ function Footer() {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							<YouTubeIcon fontSize='small' style={{ color: '#c4c4c4' }} />
+							<YouTubeIcon className='social' fontSize='small' />
 						</a>
 					</li>
 				</ul>

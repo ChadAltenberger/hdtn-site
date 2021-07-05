@@ -3,7 +3,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Listen from './components/Listen';
 import Read from './components/Read';
-import Donate from './components/Donate';
+import Support from './components/Support';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -21,8 +21,8 @@ function App() {
 					<Route exact path='/read'>
 						<Read />
 					</Route>
-					<Route exact path='/donate'>
-						<Donate />
+					<Route exact path='/support'>
+						<Support />
 					</Route>
 					<Route path='/'>
 						<Home />

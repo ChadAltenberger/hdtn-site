@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
-.mainNav {
+.main-nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	min-height: 5rem;
 	letter-spacing: 0.2rem;
-	/* background-color: rgba(255, 255, 255, 0.7); */
 	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 200;
+	z-index: 2;
 	width: 100%;
 }
 
@@ -66,7 +65,7 @@ a {
 .burger div {
 	width: 25px;
 	height: 3px;
-	background-color: #333;
+	background-color: black;
 	margin: 5px;
 	transition: all 0.3s ease;
 }
